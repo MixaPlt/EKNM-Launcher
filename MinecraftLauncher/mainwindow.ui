@@ -10,6 +10,24 @@
     <height>678</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1016</width>
+    <height>678</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1016</width>
+    <height>678</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>EKNM Launcher</string>
   </property>
@@ -35,20 +53,15 @@
      </rect>
     </property>
     <property name="cursor">
-     <cursorShape>WaitCursor</cursorShape>
+     <cursorShape>ClosedHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+	background-color: #00FFFF;
+}</string>
     </property>
     <property name="text">
      <string>Майнкрафт - это моя жизнь</string>
-    </property>
-   </widget>
-   <widget class="QGraphicsView" name="graphicsView">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>300</y>
-      <width>256</width>
-      <height>192</height>
-     </rect>
     </property>
    </widget>
   </widget>
@@ -62,7 +75,6 @@
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
